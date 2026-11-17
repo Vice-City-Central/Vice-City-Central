@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Take the fan-made Vice City quiz, explore GTA facts, and try community challenges inspired by Grand Theft Auto V and GTA VI." />
+    <meta name="theme-color" content="#080910" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fun Zone | Vice City Central" />
+    <meta property="og:description" content="Take the fan-made Vice City quiz and explore GTA facts and challenges." />
+    <title>Fun Zone | Vice City Central</title>
+    <link rel="icon" href="vice-city-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="stylee.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a href="index.html" class="logo">
+        <span class="logo-pink">VICE CITY</span>
+        <span class="logo-cyan">CENTRAL</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="gta-6.html">GTA VI</a>
+        <a href="gta-5.html">GTA V</a>
+        <a href="characters.html">Characters</a>
+        <a href="guides.html">Guides</a>
+        <a href="fun-zone.html" class="active" aria-current="page">Fun Zone</a>
+        <a href="videos.html">Videos</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="theme-button" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button>
+        <button class="icon-button" id="share-button" type="button" aria-label="Share Vice City Central" title="Share this page">↗</button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="gta-hero fun-hero">
+        <div class="gta-hero-content">
+          <p class="eyebrow">FACTS, GAMES &amp; CHALLENGES</p>
+          <h1>Welcome to the Fun Zone</h1>
+          <p class="gta-hero-description">
+            Test your GTA knowledge, explore fun facts, and try a few fan-made
+            activities inspired by Grand Theft Auto V and Grand Theft Auto VI.
+          </p>
+          <a href="#fun-facts" class="btn btn-pink">Start Exploring</a>
+        </div>
+      </section>
+
+      <section id="fun-facts" class="game-info fun-section" aria-labelledby="fun-facts-title">
+        <h2 id="fun-facts-title">Fun Facts</h2>
+        <p class="game-info-intro">
+          A few quick facts about the worlds and characters in both games.
+        </p>
+
+        <div class="info-grid fun-facts-grid">
+          <article class="info-card">
+            <p class="fun-game-label">GRAND THEFT AUTO V</p>
+            <h3>Three playable protagonists</h3>
+            <p>
+              GTA V follows Michael, Franklin, and Trevor. You can switch
+              between them during much of the story.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GRAND THEFT AUTO V</p>
+            <h3>A big place to explore</h3>
+            <p>
+              The game’s map includes Los Santos and the surrounding Blaine
+              County, with city, desert, and coastal environments.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GRAND THEFT AUTO VI</p>
+            <h3>Welcome to Leonida</h3>
+            <p>
+              GTA VI is set in the state of Leonida, which includes a new
+              version of Vice City.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GRAND THEFT AUTO VI</p>
+            <h3>Meet Lucia and Jason</h3>
+            <p>
+              Lucia and Jason are the central duo introduced in the game’s
+              trailers.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gta-quiz" id="quiz" aria-labelledby="quiz-title">
+        <h2 id="quiz-title">Vice City Quiz</h2>
+
+        <p id="question-progress" aria-live="polite">Question 1 of 5</p>
+        <div class="quiz-progress-track" role="presentation">
+          <div id="quiz-progress-bar"></div>
+        </div>
+        <h3 id="quiz-question" aria-live="polite">Loading question...</h3>
+
+        <div id="quiz-answers"></div>
+
+        <p id="quiz-feedback" role="status" aria-live="polite">Choose your answer!</p>
+        <p id="quiz-score">Score: 0</p>
+        <p id="high-score">High Score: 0</p>
+        <button id="next-question" hidden>Next Question</button>
+        <button id="restart-quiz">Restart Quiz</button>
+        <div class="quiz-share-row">
+          <button id="share-quiz-result" type="button" hidden>Challenge a friend</button>
+          <p id="quiz-share-status" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="game-info fun-section fun-activities" aria-labelledby="activities-title">
+        <h2 id="activities-title">Try These Activities</h2>
+        <p class="game-info-intro">
+          These are fan-made challenges for your next time playing.
+        </p>
+
+        <div class="info-grid activity-grid">
+          <article class="info-card">
+            <p class="fun-game-label">GTA V CHALLENGE</p>
+            <h3>Character switch challenge</h3>
+            <p>
+              Switch between Michael, Franklin, and Trevor, then make up a
+              short photo story that connects all three characters.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GTA V CHALLENGE</p>
+            <h3>Los Santos photo safari</h3>
+            <p>
+              Pick a theme—cars, coastline, or city views—and capture five
+              different photos that fit it.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GTA VI CHALLENGE</p>
+            <h3>Vice City sightseeing list</h3>
+            <p>
+              Explore the city and make a checklist of interesting places,
+              views, or details you discover along the way.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="fun-game-label">GTA VI CHALLENGE</p>
+            <h3>Lucia and Jason story snapshots</h3>
+            <p>
+              Take a few in-game photos that tell a mini story about the duo,
+              using a beginning, a twist, and an ending.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a href="index.html" class="logo" aria-label="Vice City Central home"><span class="logo-pink">VICE CITY</span><span class="logo-cyan">CENTRAL</span></a>
+      <p>An unofficial, fan-made project. Not affiliated with, endorsed by, or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and all related marks belong to their respective owners.</p>
+      <p class="footer-links"><a href="news.html">News</a><a href="videos.html">Official trailers</a><a href="about.html">About &amp; credits</a><a href="#main-content">Back to top ↑</a></p>
+      <p class="footer-small">Made by a fan, for fans. Please support the official releases.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
