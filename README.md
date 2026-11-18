@@ -24,7 +24,7 @@ Open the project-root `index.html` in a modern browser or serve the project root
 
 This is a static site and can be deployed to any static web host. Publish the project root with the HTML pages, `stylee.css`, `script.js`, and `vice-city-mark.svg`. There is no package installation or server-side code.
 
-For GitHub Pages, create a repository, push this project to its `main` or `master` branch, then open **Settings → Pages** and choose **GitHub Actions** as the build and deployment source. The included workflow publishes only the website files when either branch receives a push.
+For GitHub Pages, open **Settings → Pages**, choose **Deploy from a branch**, select `master` and `/(root)`, then save. GitHub will publish the static files directly from the project root.
 
 Before publishing:
 
@@ -51,9 +51,6 @@ Before publishing:
 ├── script.js
 ├── stylee.css
 ├── vice-city-mark.svg
-├── .github/
-│   └── workflows/
-│       └── pages.yml
 └── .vscode/
     └── launch.json
 ```
